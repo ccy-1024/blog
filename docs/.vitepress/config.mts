@@ -32,6 +32,20 @@ export default defineConfig({
           ]
         },
         {
+          text: '微前端',
+          items: [
+            { text: '微前端架构原理与实践', link: '/posts/micro-frontend-principle' },
+            { text: '微前端通信方案详解', link: '/posts/micro-frontend-communication' }
+          ]
+        },
+        {
+          text: 'uni-app',
+          items: [
+            { text: 'uni-app 入门与项目搭建', link: '/posts/uniapp-getting-started' },
+            { text: 'uni-app 生命周期详解', link: '/posts/uniapp-lifecycle' }
+          ]
+        },
+        {
           text: '性能优化',
           items: [
             { text: '首屏加载优化实战', link: '/posts/frontend-performance-optimization' }

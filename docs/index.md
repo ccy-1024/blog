@@ -6,7 +6,7 @@ hero:
   text: ""
   tagline: "学无止境，记录成长"
   image:
-    src: /images/logo.png
+    src: /logo.png
     alt: Blog Logo
     width: 200
   actions:

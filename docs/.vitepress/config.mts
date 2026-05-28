@@ -16,7 +16,7 @@ export default defineConfig({
       { text: '博客', link: '/posts/' },
       { 
         text: '简历', 
-        link: '/blog/images/resume.pdf',
+        link: '/blog/resume.pdf',
         target: '_blank',
         rel: 'noopener noreferrer',
       },

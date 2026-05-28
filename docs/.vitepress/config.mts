@@ -1,13 +1,11 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "我的博客",
+  title: "芝麻粒的博客",
   description: "记录技术成长，分享学习心得",
   base: '/blog/',
   lang: 'zh-CN',
-  lastUpdated: true,
-  cleanUrls: 'without-subfolders',
-  
+  lastUpdated: false,  
   themeConfig: {
     search: {
       provider: 'local'
@@ -40,10 +38,10 @@ export default defineConfig({
       copyright: 'Copyright © 2024-present'
     },
     
-    editLink: {
-      pattern: 'https://github.com/ccy-1024/blog/edit/main/docs/:path',
-      text: '在 GitHub 上编辑此页面'
-    },
+    // editLink: {
+    //   pattern: 'https://github.com/ccy-1024/blog/edit/main/docs/:path',
+    //   text: '在 GitHub 上编辑此页面'
+    // },
     
     docFooter: {
       prev: '上一篇',

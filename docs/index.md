@@ -2,12 +2,13 @@
 layout: home
 
 hero:
-  name: "我的博客"
-  text: "记录技术与生活"
+  name: "芝麻粒的博客"
+  text: ""
   tagline: "学无止境，记录成长"
   image:
-    src: https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=minimalist%20tech%20blog%20logo%20with%20code%20elements%20clean%20design&image_size=square_hd
+    src: /images/logo.png
     alt: Blog Logo
+    width: 200
   actions:
     - theme: brand
       text: 开始阅读
@@ -32,10 +33,3 @@ features:
 
 ---
 
-## 📚 最新文章
-
-- [我的第一篇博客](/posts/my-first-blog) - 记录博客搭建和技术分享
-
----
-
-欢迎订阅我的博客，一起学习成长！🎉

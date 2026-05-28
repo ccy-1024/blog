@@ -14,6 +14,12 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '博客', link: '/posts/' },
+      { 
+        text: '简历', 
+        link: '/blog/images/resume.pdf',
+        target: '_blank',
+        rel: 'noopener noreferrer',
+      },
       { text: '关于', link: '/about' }
     ],
     
@@ -105,7 +111,9 @@ export default defineConfig({
         {
           text: '安全攻防',
           items: [
-            { text: '前端安全攻防实战', link: '/posts/frontend-security' }
+            { text: '前端安全攻防实战', link: '/posts/frontend-security' },
+            { text: 'SQL 注入攻击与防护', link: '/posts/sql-injection-guide' },
+            { text: 'CSRF 攻击与防护策略', link: '/posts/csrf-protection-guide' }
           ]
         },
         {

@@ -21,7 +21,6 @@
 ## 📫 联系方式
 
 - GitHub: [ccy-1024](https://github.com/ccy-1024)
-- 邮箱: your@email.com
 
 ---
 

@@ -2,15 +2,23 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "我的博客",
-  description: "个人技术博客",
+  description: "记录技术成长，分享学习心得",
   base: '/blog/',
   lang: 'zh-CN',
+  lastUpdated: true,
+  cleanUrls: 'without-subfolders',
+  
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
+    
     nav: [
       { text: '首页', link: '/' },
       { text: '博客', link: '/posts/' },
       { text: '关于', link: '/about' }
     ],
+    
     sidebar: {
       '/posts/': [
         {
@@ -21,12 +29,30 @@ export default defineConfig({
         }
       ]
     },
+    
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/ccy-1024' }
+      { icon: 'github', link: 'https://github.com/ccy-1024' },
+      { icon: 'twitter', link: 'https://twitter.com' }
     ],
+    
     footer: {
-      message: '基于 VitePress 构建',
+      message: '基于 VitePress 构建 | 用心记录每一次成长',
       copyright: 'Copyright © 2024-present'
+    },
+    
+    editLink: {
+      pattern: 'https://github.com/ccy-1024/blog/edit/main/docs/:path',
+      text: '在 GitHub 上编辑此页面'
+    },
+    
+    docFooter: {
+      prev: '上一篇',
+      next: '下一篇'
+    },
+    
+    outline: {
+      level: 'deep',
+      label: '文章目录'
     }
   }
 })

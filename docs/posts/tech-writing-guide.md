@@ -87,10 +87,6 @@ const result = await package.doSomething()
 console.log(result)
 ```
 
-## 贡献指南
-
-请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)
-
 ## 许可证
 
 MIT License

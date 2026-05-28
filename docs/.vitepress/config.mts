@@ -20,7 +20,25 @@ export default defineConfig({
     sidebar: {
       '/posts/': [
         {
-          text: '博客文章',
+          text: 'Vue.js',
+          items: [
+            { text: 'Vue3 响应式原理深度解析', link: '/posts/vue3-reactive-principle' }
+          ]
+        },
+        {
+          text: 'Node.js',
+          items: [
+            { text: 'Node.js 事件循环详解', link: '/posts/nodejs-event-loop' }
+          ]
+        },
+        {
+          text: '性能优化',
+          items: [
+            { text: '首屏加载优化实战', link: '/posts/frontend-performance-optimization' }
+          ]
+        },
+        {
+          text: '其他',
           items: [
             { text: '我的第一篇博客', link: '/posts/my-first-blog' }
           ]
